@@ -1,0 +1,9 @@
+http://how-to.linuxcareer.com/using-openssl-to-encrypt-messages-and-files
+
+Encryption
+openssl enc -aes-256-cbc -in /etc/services -out services.dat
+enter aes-256-cbc encryption password:
+
+Decryption:
+openssl enc -aes-256-cbc -d -in services.dat > services.txt
+enter aes-256-cbc decryption password:
